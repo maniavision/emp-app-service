@@ -38,4 +38,4 @@ metadata:
 description: Cloud Run PROD service
 requireApproval: true
 run:
- location: projects/prod-maniavision-101222/locations/us-central1
+ location: projects/gcp-101-405620/locations/us-central1
