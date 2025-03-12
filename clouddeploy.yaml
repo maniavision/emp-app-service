@@ -36,5 +36,6 @@ kind: Target
 metadata:
  name: prod-env
 description: Cloud Run PROD service
+requireApproval: true
 run:
  location: projects/prod-maniavision-101222/locations/us-central1
