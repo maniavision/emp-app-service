@@ -6,4 +6,4 @@ spec:
   template:
     spec:
       containers:
-      - image: us-central1-docker.pkg.dev/gcp-101-405620/emp-app/employee-app
+      - image: employee-app
