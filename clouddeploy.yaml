@@ -20,10 +20,10 @@ metadata:
 description: Cloud Run development service
 run:
  location: projects/gcp-101-405620/locations/us-central1
-executionConfigs:
-- usages:
-  - RENDER
-  - DEPLOY
+# executionConfigs:
+# - usages:
+#   - RENDER
+#   - DEPLOY
   # serviceAccount: cd-tut-run-deploy-sa@${PROJECT_ID}.iam.gserviceaccount.com
 ---
 
@@ -34,10 +34,10 @@ metadata:
 description: Cloud Run QA service
 run:
  location: projects/gcp-101-405620/locations/us-central1
-executionConfigs:
-- usages:
-  - RENDER
-  - DEPLOY
+# executionConfigs:
+# - usages:
+#   - RENDER
+#   - DEPLOY
   # serviceAccount: cd-tut-run-deploy-sa@${PROJECT_ID}.iam.gserviceaccount.com
 ---
 
@@ -49,8 +49,8 @@ description: Cloud Run PROD service
 requireApproval: true
 run:
  location: projects/gcp-101-405620/locations/us-central1
-executionConfigs:
-- usages:
-  - RENDER
-  - DEPLOY
+# executionConfigs:
+# - usages:
+#   - RENDER
+#   - DEPLOY
   # serviceAccount: cd-tut-run-deploy-sa@${PROJECT_ID}.iam.gserviceaccount.com
