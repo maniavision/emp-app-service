@@ -2,7 +2,7 @@ steps:
  - name: 'gcr.io/cloud-builders/gcloud'
    args: ['deploy', 'apply', '--file=clouddeploy.yaml', '--region=us-central1', '--project=gcp-101-405620']
  - name: 'gcr.io/cloud-builders/gcloud'
-   args: ['deploy', 'releases', 'create', 'release-104', '--delivery-pipeline=cloud-run-pipeline', '--images employee-app=us-central1-docker.pkg.dev/gcp-101-405620/emp-app/employee-app', '--skaffold-file=skaffold.yml', '--region=us-central1']
+   args: ['deploy', 'releases', 'create', 'release-105', '--delivery-pipeline=cloud-run-pipeline', '--images employee-app=us-central1-docker.pkg.dev/gcp-101-405620/emp-app/employee-app', '--skaffold-file=skaffold.yml', '--region=us-central1']
   
 options:
  logging: CLOUD_LOGGING_ONLY
