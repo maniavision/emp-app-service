@@ -5,7 +5,7 @@ spec:
   template:
     spec:
       containers:
-      - image: app
+      - image: us-central1-docker.pkg.dev/gcp-101-405620/emp-app/employee-app
         resources:
           limits:
             cpu: 1000m
