@@ -6,14 +6,14 @@ profiles:
 - name: dev
   manifests:
     rawYaml:
-    - deploy-dev.yml
+    - deploy-dev.yaml
 - name: qa
   manifests:
     rawYaml:
-    - deploy-qa.yml
+    - deploy-qa.yaml
 - name: prod
   manifests:
     rawYaml:
-    - deploy-prod.yml
+    - deploy-prod.yaml
 deploy:
   cloudrun: {}
