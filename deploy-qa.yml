@@ -5,4 +5,4 @@ spec:
   template:
     spec:
       containers:
-      - image: employee-app
+      - image: app
