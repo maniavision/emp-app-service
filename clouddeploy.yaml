@@ -24,7 +24,7 @@ executionConfigs:
 - usages:
   - RENDER
   - DEPLOY
-  serviceAccount: cd-tut-run-deploy-sa@${PROJECT_ID}.iam.gserviceaccount.com
+  # serviceAccount: cd-tut-run-deploy-sa@${PROJECT_ID}.iam.gserviceaccount.com
 ---
 
 apiVersion: deploy.cloud.google.com/v1
@@ -38,7 +38,7 @@ executionConfigs:
 - usages:
   - RENDER
   - DEPLOY
-  serviceAccount: cd-tut-run-deploy-sa@${PROJECT_ID}.iam.gserviceaccount.com
+  # serviceAccount: cd-tut-run-deploy-sa@${PROJECT_ID}.iam.gserviceaccount.com
 ---
 
 apiVersion: deploy.cloud.google.com/v1
@@ -53,4 +53,4 @@ executionConfigs:
 - usages:
   - RENDER
   - DEPLOY
-  serviceAccount: cd-tut-run-deploy-sa@${PROJECT_ID}.iam.gserviceaccount.com
+  # serviceAccount: cd-tut-run-deploy-sa@${PROJECT_ID}.iam.gserviceaccount.com
